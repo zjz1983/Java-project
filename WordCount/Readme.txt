@@ -1,1 +1,1 @@
-This software can count the number of words in plain txt file including white space.
+This software can count the number of words in plain txt file including empty lines.

@@ -8,7 +8,8 @@ public class WordCount {
         int words=0;
         while(scanner.hasNextLine()){
             String line=scanner.nextLine();
-            words+=line.split("").length;
+            //If you want to count character number including white space, use ("") instead of (" ").
+            words+=line.split(" ").length;
         }
         System.out.println("The file contains: "+words+" words.");
     }
