@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class RadioSignalReading {
     public static void main(String[] args){
+        System.out.print("Please input RadioSignal (Readability and Strength): ");
         Scanner signal=new Scanner(System.in);
         int number=signal.nextInt();
         String[]Readability= {"unreadable","barely readable, occasional words distinguishable",
